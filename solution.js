@@ -1,5 +1,5 @@
 /**
- * 	# 1 Two Sum
+ *    # 1 Two Sum
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -15,4 +15,15 @@ var twoSum = function (nums, target) {
     }
 };
 
-twoSum([3, 3], 6);
+// twoSum([3, 3], 6);
+
+const reverse = inputValue => {
+    let isPositive = inputValue > 0;
+    let result = parseInt(inputValue.toString().split("").reverse().join(''));
+    if (!isPositive) {
+        result = -result;
+    }
+    console.log(result);
+};
+
+reverse(12304);
