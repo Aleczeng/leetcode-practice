@@ -152,4 +152,56 @@ const isValidParentheses = s => {
     return stack.length === 0;
 };
 
-console.log(isValidParentheses('([{()()}])'));
+// console.log(isValidParentheses('([{()()}])'));
+
+// 21. Merge Two Sorted Lists ??????
+
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
+let l1 = new ListNode(1);
+l1.next = new ListNode(2);
+l1.next.next = new ListNode(3);
+
+let l2 = new ListNode(1);
+l2.next = new ListNode(3);
+l2.next.next = new ListNode(4);
+
+const mergeTwoLists = (l1, l2) => {
+    let newListNode = {
+        val: -1,
+        next: null
+    };
+    let curr = newListNode;
+    while (l1 && l2) {
+        if (l1.val > l2.val) {
+            curr.next = l2;
+            l2 = l2.next
+        } else {
+            curr.next = l1;
+            l1 = l1.next
+        }
+        curr = curr.next;
+    }
+    curr.next = l1 || l2;
+    return newListNode.next;
+};
+
+// console.log(mergeTwoLists(l1, l2));
+
+
+// 26. Remove Duplicates from Sorted Array
+const removeDuplicates = nums => {
+    for (let j = 0; j < nums.length; j++) {
+        if (nums[j] === nums[j + 1]) {
+            nums.splice(j, 1);
+            j--;
+        }
+    }
+    console.log(nums);
+};
+
+
+removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]);
