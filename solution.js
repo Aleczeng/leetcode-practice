@@ -124,3 +124,32 @@ const longestCommonPrefix = strs => {
 };
 
 // console.log(longestCommonPrefix(["c","acc","ccc"]));
+
+// 20. Valid Parentheses
+const isValidParentheses = s => {
+    if (s == null) {
+        return false;
+    }
+    const parenthesesMap = {
+        '(': ')',
+        '{': '}',
+        '[': ']',
+    };
+
+    let stack = [];
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] in parenthesesMap) {
+            stack.push(s[i]);
+        } else if (stack.length > 0) {
+            let curr = stack.pop();
+            if (parenthesesMap[curr] !== s[i]) {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }
+    return stack.length === 0;
+};
+
+console.log(isValidParentheses('([{()()}])'));
