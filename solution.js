@@ -194,14 +194,33 @@ const mergeTwoLists = (l1, l2) => {
 
 // 26. Remove Duplicates from Sorted Array
 const removeDuplicates = nums => {
-    for (let j = 0; j < nums.length; j++) {
-        if (nums[j] === nums[j + 1]) {
-            nums.splice(j, 1);
-            j--;
+    let prev = 0;
+    let curr = 0;
+    while (curr < nums.length) {
+        if (nums[curr] === nums[prev]) {
+            curr++;
+        } else {
+            prev++;
+            nums[prev] = nums[curr];
+            curr++;
         }
     }
     console.log(nums);
+    return prev + 1;
+};
+// console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+
+// 27. Remove Element
+const removeElement = (nums, val) => {
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] === val) {
+            nums.splice(i, 1);
+            i--;
+        }
+    }
+    console.log(nums);
+    console.log(nums.length);
+    return nums.length
 };
 
-
-removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]);
+removeElement([3,2,2,3], 3);
