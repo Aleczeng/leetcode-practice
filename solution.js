@@ -254,4 +254,26 @@ const strStr = (haystack, needle) => {
     return -1;
 };
 
-console.log(strStr('mississippi', 'issip'));
+// console.log(strStr('mississippi', 'issip'));
+
+
+// 35. Search Insert Position
+const searchInsert = (nums, target) => {
+    if (nums.indexOf(target) > -1) {
+        return nums.indexOf(target);
+    } else {
+        let i = 0;
+        while (i < nums.length) {
+            if (target >= nums[i] && target < nums[i + 1]) {
+                nums.splice(i, 0, target);
+                return i + 1;
+            }else if(target < nums[i]) {
+                return i;
+            }
+            i++;
+        }
+        return nums.length;
+    }
+};
+
+console.log(searchInsert([1, 3, 5, 6], 0));
