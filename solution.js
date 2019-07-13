@@ -223,4 +223,35 @@ const removeElement = (nums, val) => {
     return nums.length
 };
 
-removeElement([3,2,2,3], 3);
+// removeElement([3,2,2,3], 3);
+
+// 28. Implement strStr()
+const strStr = (haystack, needle) => {
+
+    if (needle.length === 0) {
+        return 0;
+    } else if (haystack.length === 0) {
+        return -1;
+    }
+
+    let i = 0;
+    let j = 0;
+    while (i < haystack.length) {
+
+        if (needle[j] === haystack[i]) {
+            j++;
+        }
+        i++;
+        if (j === needle.length) {
+            return i - j;
+        }
+        if (j !== 0 && needle[j] !== haystack[i]) {
+            i = i - j + 1;
+            j = 0;
+        }
+
+    }
+    return -1;
+};
+
+console.log(strStr('mississippi', 'issip'));
