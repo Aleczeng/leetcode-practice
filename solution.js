@@ -267,7 +267,7 @@ const searchInsert = (nums, target) => {
             if (target >= nums[i] && target < nums[i + 1]) {
                 nums.splice(i, 0, target);
                 return i + 1;
-            }else if(target < nums[i]) {
+            } else if (target < nums[i]) {
                 return i;
             }
             i++;
@@ -276,4 +276,26 @@ const searchInsert = (nums, target) => {
     }
 };
 
-console.log(searchInsert([1, 3, 5, 6], 0));
+// console.log(searchInsert([1, 3, 5, 6], 0));
+
+// 38. Count and Say
+const countAndSay = n => {
+    let str = '1';
+    for (let i = 1; i < n; i++) {
+        let array = str.split('');
+        str = '';
+        let count = 1;
+        for (let j = 0; j < array.length; j++) {
+            if (array[j] !== array[j + 1]) {
+                str += count.toString() + array[j];
+                count = 1;
+            } else {
+                count++;
+            }
+        }
+    }
+    return str;
+};
+
+console.log(countAndSay(5));
+
