@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="313" column="5" lean-forward="true" selection-start-line="313" selection-start-column="5" selection-end-line="313" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="344" column="49" lean-forward="true" selection-start-line="344" selection-start-column="49" selection-end-line="344" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -116,12 +116,12 @@
       <workItem from="1562646914624" duration="34000" />
       <workItem from="1562925222949" duration="107000" />
       <workItem from="1562925344624" duration="18944000" />
-      <workItem from="1563086439735" duration="2336000" />
+      <workItem from="1563086439735" duration="5619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28461000" />
+    <option name="totallyTimeSpent" value="31744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,14 +166,20 @@
           <line>238</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/solution.js</url>
+          <line>339</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="313" column="5" lean-forward="true" selection-start-line="313" selection-start-column="5" selection-end-line="313" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="344" column="49" lean-forward="true" selection-start-line="344" selection-start-column="49" selection-end-line="344" selection-end-column="49" />
         </state>
       </provider>
     </entry>

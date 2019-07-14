@@ -315,4 +315,37 @@ const maxSubArray = nums => {
     return maxSum;
 };
 
-console.log(maxSubArray([-2, -1]));
+// console.log(maxSubArray([-2, -1]));
+
+// 58. Length of Last Word
+const lengthOfLastWord = s => {
+    let sArray = s.split(' ');
+    let result = 0;
+    for (let i = 0; i < sArray.length; i++) {
+        if (sArray[i].length > 0) {
+            result = sArray[i].length;
+        }
+    }
+    return result;
+};
+
+// console.log(lengthOfLastWord('a '));
+
+// 66. Plus One
+const plusOne = digits => {
+    let j = 1;
+    digits[digits.length - j]++;
+    while (digits[digits.length - j] === 10) {
+        if (digits[digits.length - j - 1]) {
+            digits[digits.length - j] = 0;
+            digits[digits.length - j - 1]++;
+        }else {
+            digits[digits.length - j] = 0;
+            digits = [1].concat(digits);
+        }
+        j++;
+    }
+    return digits;
+};
+
+console.log(plusOne([9, 9]));
