@@ -282,12 +282,12 @@ const searchInsert = (nums, target) => {
 const countAndSay = n => {
     let str = '1';
     for (let i = 1; i < n; i++) {
-        let array = str.split('');
-        str = '';
+        let strArray = str.split('');
         let count = 1;
-        for (let j = 0; j < array.length; j++) {
-            if (array[j] !== array[j + 1]) {
-                str += count.toString() + array[j];
+        str = '';
+        for (let j = 0; j < strArray.length; j++) {
+            if (strArray[j] !== strArray[j + 1]) {
+                str += count + strArray[j];
                 count = 1;
             } else {
                 count++;
@@ -297,5 +297,22 @@ const countAndSay = n => {
     return str;
 };
 
-console.log(countAndSay(5));
+// console.log(countAndSay(5));
 
+// 53. Maximum Subarray
+
+const maxSubArray = nums => {
+    let maxSum = nums[0];
+    for (let i = 0; i < nums.length; i++) {
+        let result = 0;
+        for (let j = i; j < nums.length; j++) {
+            result += nums[j];
+            if (result > maxSum) {
+                maxSum = result;
+            }
+        }
+    }
+    return maxSum;
+};
+
+console.log(maxSubArray([-2, -1]));
