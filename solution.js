@@ -339,7 +339,7 @@ const plusOne = digits => {
         if (digits[digits.length - j - 1]) {
             digits[digits.length - j] = 0;
             digits[digits.length - j - 1]++;
-        }else {
+        } else {
             digits[digits.length - j] = 0;
             digits = [1].concat(digits);
         }
@@ -348,4 +348,30 @@ const plusOne = digits => {
     return digits;
 };
 
-console.log(plusOne([9, 9]));
+// console.log(plusOne([9, 9]));
+
+// 67. Add Binary
+const addBinary = (a, b) => {
+    let i = 1;
+    let j = 1;
+    let result = '';
+    let curr = 0;
+    while (i < a.length + 1 || j < b.length + 1) {
+        curr += i < a.length + 1 ? parseInt(a[a.length - i++]) : 0;
+        curr += j < b.length + 1 ? parseInt(b[b.length - j++]) : 0;
+        if (curr > 1) {
+            curr = curr % 2;
+            result = curr.toString() + result;
+            curr = 1;
+        } else {
+            result = curr.toString() + result;
+            curr = 0;
+        }
+    }
+    if (curr > 0) {
+        result = curr.toString() + result;
+    }
+    return result;
+};
+
+// console.log(addBinary("1111", "1111"));
