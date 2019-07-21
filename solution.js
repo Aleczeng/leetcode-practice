@@ -413,7 +413,7 @@ function ListNode(val) {
 const head = new ListNode(1);
 head.next = new ListNode(1);
 head.next.next = new ListNode(2);
-console.log(head);
+// console.log(head);
 
 const deleteDuplicates = head => {
     let curr = head;
@@ -427,4 +427,19 @@ const deleteDuplicates = head => {
     return head
 };
 
-console.log(deleteDuplicates(head));
+// console.log(deleteDuplicates(head));
+
+// 88. Merge Sorted Array
+const merge = (nums1, m, nums2, n) => {
+    var len = m + n;
+    m--;
+    n--;
+    while (len--) {
+        if (n < 0 || nums1[m] > nums2[n]) {
+            nums1[len] = nums1[m--];
+        } else {
+            nums1[len] = nums2[n--];
+        }
+    }
+};
+console.log(merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3));
