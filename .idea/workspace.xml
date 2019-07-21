@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="385" column="29" lean-forward="true" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
+            <state relative-caret-position="245">
+              <caret line="395" selection-start-line="395" selection-end-line="400" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -117,12 +117,12 @@
       <workItem from="1562925344624" duration="18944000" />
       <workItem from="1563086439735" duration="6410000" />
       <workItem from="1563254954046" duration="1035000" />
-      <workItem from="1563687381939" duration="2491000" />
+      <workItem from="1563687381939" duration="3191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36061000" />
+    <option name="totallyTimeSpent" value="36761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -142,8 +142,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.5016949" side_tool="true" weight="0.1887324" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
@@ -179,8 +179,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="385" column="29" lean-forward="true" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
+        <state relative-caret-position="245">
+          <caret line="395" selection-start-line="395" selection-end-line="400" selection-end-column="26" />
         </state>
       </provider>
     </entry>

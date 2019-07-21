@@ -391,3 +391,14 @@ const mySqrt = x => {
 
 // console.log(mySqrt(2));
 
+// 70. Climbing Stairs
+const climbStairs = n => {
+    let resultArray = [0, 1, 2];
+    for (let i = 3; i < n + 1; i++) {
+        resultArray[i] = resultArray[i - 1] + resultArray[i - 2];
+    }
+
+    return resultArray[n];
+};
+
+// console.log(climbStairs(5));
