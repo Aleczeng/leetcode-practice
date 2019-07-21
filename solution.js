@@ -405,11 +405,6 @@ const climbStairs = n => {
 
 // 83. Remove Duplicates from Sorted List
 
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
-}
-
 const head = new ListNode(1);
 head.next = new ListNode(1);
 head.next.next = new ListNode(2);
@@ -431,7 +426,7 @@ const deleteDuplicates = head => {
 
 // 88. Merge Sorted Array
 const merge = (nums1, m, nums2, n) => {
-    var len = m + n;
+    let len = m + n;
     m--;
     n--;
     while (len--) {
@@ -441,5 +436,12 @@ const merge = (nums1, m, nums2, n) => {
             nums1[len] = nums2[n--];
         }
     }
+    return nums1
 };
-console.log(merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3));
+// console.log(merge([1, 2, 3, 0], 3, [2, 5, 6], 3));
+
+// 100. Same Tree
+const isSameTree = (p, q) => {
+
+};
+console.log(isSameTree());
