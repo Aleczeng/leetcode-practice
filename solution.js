@@ -12,6 +12,50 @@ var twoSum = function (nums, target) {
 
 // twoSum([3, 3], 6);
 
+// 2. Add Two Numbers
+
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
+let l1 = new ListNode(2);
+l1.next = new ListNode(4);
+l1.next.next = new ListNode(3);
+
+let l2 = new ListNode(5);
+l2.next = new ListNode(6);
+l2.next.next = new ListNode(4);
+
+const addTwoNumbers = (l1, l2) => {
+    let newListNode = {val: 0, next: null};
+    let carry = 0;
+    let curr = newListNode;
+    while (l1 || l2) {
+        curr.val += l1 ? l1.val : 0;
+        curr.val += l2 ? l2.val : 0;
+        carry = Math.floor(curr.val / 10);
+        curr.val = curr.val % 10;
+        l1 = l1 ? l1.next : null;
+        l2 = l2 ? l2.next : null;
+        curr.next = {val: carry, next: null};
+        curr = curr.next;
+    }
+    if (carry === 0) {
+        curr = newListNode;
+        while (curr) {
+            if(!curr.next.next){
+                curr.next = null
+            }
+            curr = curr.next;
+        }
+    }
+    return newListNode;
+};
+
+console.log(addTwoNumbers(l1, l2));
+
+
 // 7. Reverse Integer
 const reverse = inputValue => {
     let isPositive = inputValue > 0;
@@ -156,18 +200,14 @@ const isValidParentheses = s => {
 
 // 21. Merge Two Sorted Lists ??????
 
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
-}
 
-let l1 = new ListNode(1);
-l1.next = new ListNode(2);
-l1.next.next = new ListNode(3);
-
-let l2 = new ListNode(1);
-l2.next = new ListNode(3);
-l2.next.next = new ListNode(4);
+// let l1 = new ListNode(1);
+// l1.next = new ListNode(2);
+// l1.next.next = new ListNode(3);
+//
+// let l2 = new ListNode(1);
+// l2.next = new ListNode(3);
+// l2.next.next = new ListNode(4);
 
 const mergeTwoLists = (l1, l2) => {
     let newListNode = {
@@ -444,4 +484,4 @@ const merge = (nums1, m, nums2, n) => {
 const isSameTree = (p, q) => {
 
 };
-console.log(isSameTree());
+// console.log(isSameTree());
