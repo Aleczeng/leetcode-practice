@@ -402,3 +402,29 @@ const climbStairs = n => {
 };
 
 // console.log(climbStairs(5));
+
+// 83. Remove Duplicates from Sorted List
+
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
+const head = new ListNode(1);
+head.next = new ListNode(1);
+head.next.next = new ListNode(2);
+console.log(head);
+
+const deleteDuplicates = head => {
+    let curr = head;
+    while (curr) {
+        if (curr.next && curr.val === curr.next.val) {
+            curr.next = curr.next.next;
+        } else {
+            curr = curr.next
+        }
+    }
+    return head
+};
+
+console.log(deleteDuplicates(head));
