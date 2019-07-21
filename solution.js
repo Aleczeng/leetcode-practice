@@ -375,3 +375,19 @@ const addBinary = (a, b) => {
 };
 
 // console.log(addBinary("1111", "1111"));
+
+// 69. Sqrt(x)
+const mySqrt = x => {
+    if (x < 2)
+        return x;
+    let result = 0;
+    while (result <= x) {
+        if (result * result > x) {
+            return result - 1
+        }
+        result++;
+    }
+};
+
+// console.log(mySqrt(2));
+
