@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="112">
+              <caret line="484" selection-start-line="484" selection-end-line="496" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -123,12 +123,12 @@
       <workItem from="1562925344624" duration="18944000" />
       <workItem from="1563086439735" duration="6410000" />
       <workItem from="1563254954046" duration="1035000" />
-      <workItem from="1563687381939" duration="14895000" />
+      <workItem from="1563687381939" duration="17246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48465000" />
+    <option name="totallyTimeSpent" value="50816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -170,20 +170,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/solution.js</url>
-          <line>278</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/solution.js</url>
-          <line>423</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/solution.js</url>
           <line>33</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/solution.js</url>
+          <line>487</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -191,8 +186,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="112">
+          <caret line="484" selection-start-line="484" selection-end-line="496" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -44,7 +44,7 @@ const addTwoNumbers = (l1, l2) => {
     if (carry === 0) {
         curr = newListNode;
         while (curr) {
-            if(!curr.next.next){
+            if (!curr.next.next) {
                 curr.next = null
             }
             curr = curr.next;
@@ -53,7 +53,7 @@ const addTwoNumbers = (l1, l2) => {
     return newListNode;
 };
 
-console.log(addTwoNumbers(l1, l2));
+// console.log(addTwoNumbers(l1, l2));
 
 
 // 7. Reverse Integer
@@ -480,8 +480,21 @@ const merge = (nums1, m, nums2, n) => {
 };
 // console.log(merge([1, 2, 3, 0], 3, [2, 5, 6], 3));
 
-// 100. Same Tree
-const isSameTree = (p, q) => {
-
+// 118. Pascal's Triangle
+const generate = numRows => {
+    let resultList = [];
+    for (let i = 0; i < numRows; i++) {
+        let arrayList = [];
+        for (let j = 0; j < i + 1; j++) {
+            if (j === 0 || j === i) {
+                arrayList[j] = 1;
+            } else {
+                arrayList[j] = resultList[i - 1][j - 1] + resultList[i - 1][j];
+            }
+        }
+        resultList.push(arrayList);
+    }
+    console.log(resultList);
 };
-// console.log(isSameTree());
+
+generate(5);
