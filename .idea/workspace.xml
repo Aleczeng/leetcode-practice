@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4830f124-329c-4aa3-a37c-b6482a490489" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/solution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="leetcode" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="484" selection-start-line="484" selection-end-line="496" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,63 +26,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/solution.js" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1d0dCIsBIEZ73R4TXZ6E97vpKa3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.new_solutions.js">
+    <configuration name="new_solutions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/new_solutions.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.new_solutions.js" />
         <item itemvalue="Node.js.solution.js" />
       </list>
     </recent_temporary>
@@ -124,72 +77,83 @@
       <workItem from="1563086439735" duration="6410000" />
       <workItem from="1563254954046" duration="1035000" />
       <workItem from="1563687381939" duration="17246000" />
+      <workItem from="1591565816719" duration="3379000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50816000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49830508" visible="true" weight="0.1887324" />
-      <window_info id="Structure" order="1" sideWeight="0.5016949" side_tool="true" weight="0.1887324" />
-      <window_info id="Favorites" order="2" sideWeight="0.5016949" side_tool="true" weight="0.1887324" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/solution.js</url>
-          <line>33</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/solution.js</url>
-          <line>487</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="484" selection-start-line="484" selection-end-line="496" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1897" height="320" key="GridCell.Tab.0.bottom" timestamp="1591569980479">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="320" key="GridCell.Tab.0.bottom/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591569980479" />
+    <state width="1897" height="320" key="GridCell.Tab.0.center" timestamp="1591569980477">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="320" key="GridCell.Tab.0.center/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591569980477" />
+    <state width="1897" height="320" key="GridCell.Tab.0.left" timestamp="1591569980476">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="320" key="GridCell.Tab.0.left/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591569980476" />
+    <state width="1897" height="320" key="GridCell.Tab.0.right" timestamp="1591569980478">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="320" key="GridCell.Tab.0.right/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591569980478" />
+    <state width="1897" height="394" key="GridCell.Tab.1.bottom" timestamp="1591568574507">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.1.bottom/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574507" />
+    <state width="1897" height="394" key="GridCell.Tab.1.center" timestamp="1591568574506">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.1.center/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574506" />
+    <state width="1897" height="394" key="GridCell.Tab.1.left" timestamp="1591568574505">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.1.left/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574505" />
+    <state width="1897" height="394" key="GridCell.Tab.1.right" timestamp="1591568574507">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.1.right/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574507" />
+    <state width="1897" height="394" key="GridCell.Tab.2.bottom" timestamp="1591568574510">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.2.bottom/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574510" />
+    <state width="1897" height="394" key="GridCell.Tab.2.center" timestamp="1591568574509">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.2.center/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574509" />
+    <state width="1897" height="394" key="GridCell.Tab.2.left" timestamp="1591568574508">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.2.left/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574508" />
+    <state width="1897" height="394" key="GridCell.Tab.2.right" timestamp="1591568574509">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.2.right/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574509" />
+    <state width="1897" height="394" key="GridCell.Tab.3.bottom" timestamp="1591568574513">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.3.bottom/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574513" />
+    <state width="1897" height="394" key="GridCell.Tab.3.center" timestamp="1591568574511">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.3.center/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574511" />
+    <state width="1897" height="394" key="GridCell.Tab.3.left" timestamp="1591568574511">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.3.left/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574511" />
+    <state width="1897" height="394" key="GridCell.Tab.3.right" timestamp="1591568574512">
+      <screen x="-226" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="394" key="GridCell.Tab.3.right/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591568574512" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-1" timestamp="1591570695776">
+      <screen x="0" y="0" width="1440" height="849" />
+    </state>
+    <state x="0" y="0" width="1440" height="900" key="dock-window-1/0.0.1440.849/-226.-1057.1920.1057@-226.-1057.1920.1057" timestamp="1591570695776" />
+    <state x="0" y="0" width="1440" height="900" maximized="true" key="dock-window-1/0.0.1440.900/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591569976880" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-1/0.23.1440.826/-226.-1080.1920.1080@-226.-1080.1920.1080" timestamp="1591570290746" />
   </component>
 </project>
